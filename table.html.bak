@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>programme4</title>
+</head>
+<body>
+<h1><u><center>STUDENT LIST</center></u></h1>
+<center>
+<table border="3px" bgcolor="grey">
+<tr>
+<th rowspan="2">SEM</th>
+<th rowspan="2">REG NO</th>
+<th rowspan="2">NAME</th>
+<th colspan="2">MARKS</th>
+</tr>
+<tr>
+<td>1</td>
+<td>2</td>
+</tr>
+<tr>
+<td rowspan="2">sem1</td>
+<td>8232</td>
+<td>xy</td>
+<td>50</td>
+<td>55</td>
+</tr>
+<tr>
+<td>5162</td>
+<td>ey</td>
+<td>50</td>
+<td>45</td>
+</tr>
+<tr>
+<td rowspan="2">sem2</td>
+<td>9876</td>
+<td>yy</td>
+<td>56</td>
+<td>90</td>
+</tr>
+<tr>
+<td>8755</td>
+<td>py</td>
+<td>50</td>
+<td>67</td>
+</tr>
+</table>
+</center>
+</body>
+</html>
