@@ -1,6 +1,6 @@
 <html>
 <head><title>form</title></head>
-<body bgcolor="thistle">
+<body>
 <br>
 <form>
 <label>Name:</label>
@@ -14,7 +14,7 @@
 <label>DOB:</label>
 <input type="date"><br><br>
 <label>Email Id:</label>
-<input type="text" placeholder="xyz@gmail.com"><br><br>
+<input type="Email" placeholder="xyz@gmail.com"><br><br>
 <label>Nationality:</label>
 <select value="select">
 <option>India</option>
@@ -24,14 +24,17 @@
 <label>Gender:</label>
 <label><input type="radio" name="gender" value="male">Male</label>
 <label><input type="radio" name="gender" value="female">Female</label><br><br>
-<label>Languages known:</label>
+<fieldset>
+<legend><label>Languages known:</label></legend>
 <label>English</label>
-<input type="checkbox" name="English">
+<input  name="English" type="checkbox">
 <label>Malayalam</label>
-<input type="checkbox" name="Malayalam"
+<input name="Malayalam" type="checkbox">
 <label>Hindi</label>
-<input type="checkbox" name="Hindi"><br><br>
+<input name="Hindi" type="checkbox" >
+</fieldset><br><br>
 <input type="submit" value="Submit">
 <input type="button" value="Cancel">
 </body>
 </html>
+
