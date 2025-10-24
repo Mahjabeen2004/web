@@ -1,0 +1,28 @@
+
+body{background-color: lightblue;}
+h1{ color:darkblue;font-style:bold;font-style:italic;text-align:center;font-size:38px;}
+h3{color:purple;font-style:bold;font-style:italic;font-size:25px;}
+p{color:brown;font-size:15px;}
+h4{color:white;font-style:bold;font-style:italic;font-size:25px;}
+ol{color:green;font-size:15px;type:number;}
+table {
+ border-collapse: collapse;
+ width: 30%;
+ }
+ th, td {
+ border: 1px solid #ddd;
+ padding: 8px;
+ text-align: left;
+ }
+ th {
+ background-color: purple;
+ color: white;
+ }
+ tr:nth-child(even) {
+ background-color: #f2f2f2;
+ }
+ tr:hover {
+ background-color: #ddd;
+ }
+
+
