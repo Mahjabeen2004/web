@@ -1,0 +1,39 @@
+<html>
+<body>
+<h1>Strings</h1>
+<script>
+var s1="Welcome to JS Programming"
+document.writeln(s1,"<br>")
+var s2='Welcome to "JS Programming"'
+document.writeln(s2,"<br>")
+document.writeln(typeof s2,"<br>")
+var s3= new String("string object")
+document.writeln(typeof s3,"<br>")
+document.writeln("<h4>")
+document.writeln("Index of first 'o' in s1 : ",s1.indexOf("o"),"<br>")
+document.writeln("Index of last 'o' in s1 : ",s1.lastIndexOf("o"),"<br>")
+document.writeln("Index of 'o' with arguments in s1: ",s1.indexOf("o",6),"<br>")
+document.writeln("Search of 'o' in s2: ",s2.search("l"),"<br>")
+
+document.writeln("Slice() ",s1.slice(0,8),"<br>")
+document.writeln("Slice() ",s1.slice(14),"<br>")
+document.writeln("Slice() ",s1.slice(-11),"<br>")
+document.writeln("Slice() ",s1.slice(-14,-12),"<br>")
+document.writeln("Substring() ",s1.substring(0,13),"<br>")
+document.writeln("Substr() ",s1.substr(0,10),"<br>")
+document.writeln("Replace() ",s1.replace("JS","Java Script"),"<br>")
+
+var s4=s1.toUpperCase()
+document.writeln(s4,"<br>")
+document.writeln(s4.toLowerCase(),"<br>")
+var s5="   Hello ";
+document.writeln(s5.concat(s1),"<br>")
+document.writeln(s6=s5.trim(),"<br>")
+document.writeln("charAt() ",s1.charAt(3),"<br>")
+document.writeln("charCodeAt() ",s1.charCodeAt(2),"<br>")
+for(i=0;i<s6.length;++i)
+{document.writeln(s6[i]+"<br>");}
+</script>
+
+</body>
+</html>
