@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Form</title>
+
+<!-- INTERNAL CSS -->
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #d7d4ff, #f7d4ff);;
+        padding: 20px;
+    }
+
+    form {
+        width: 500px;
+        margin: auto;
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        border: 1px solid #ccc;
+    }
+
+    /* Inline-block alignment for labels and inputs */
+    label {
+        display: inline-block;
+        width: 140px;
+        font-weight: bold;
+        vertical-align: top;
+        margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="tel"],
+    input[type="date"],
+    input[type="email"],
+    select,
+    textarea {
+        width: 250px;
+        padding: 6px;
+        border: 1px solid #888;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        display: inline-block;
+    }
+
+    fieldset {
+         background-color: #f1e6ff;
+    border: 2px solid #b89dff;
+    border-radius: 8px;
+    padding: 15px;
+    }
+
+    legend {
+        font-weight: bold;
+    }
+
+    /* Buttons aligned using inline-block and text-align */
+    form input[type="submit"],
+    form input[type="button"] {
+        width: 100px;
+        padding: 8px;
+        cursor: pointer;
+        margin: 5px;
+        display: inline-block;
+    }
+
+    /* Center buttons */
+    .button-center {
+        text-align: center;
+        width: 100%;
+        display: block;
+        margin-top: 15px;
+    }
+</style>
+
+<!-- EXTERNAL CSS -->
+<link rel="stylesheet" href="f.css">
+
+</head>
+<body>
+
+<form>
+
+<h2 style="text-align:center;">Registration Form</h2> <!-- INLINE CSS -->
+
+<label>Name:</label>
+<input type="text"><br><br>
+
+<label>Password:</label>
+<input type="password"><br><br>
+
+<label>Mobile No:</label>
+<input type="tel" maxlength="10"><br><br>
+
+<label>Address:</label>
+<textarea></textarea><br><br>
+
+<label>DOB:</label>
+<input type="date"><br><br>
+
+<label>Email Id:</label>
+<input type="email" placeholder="xyz@gmail.com"><br><br>
+
+<label>Nationality:</label>
+<select>
+    <option>India</option>
+    <option>England</option>
+    <option>China</option>
+</select><br><br>
+
+<label>Gender:</label>
+<span>
+    <input type="radio" name="gender" value="male"> Male
+    &nbsp;&nbsp;
+    <input type="radio" name="gender" value="female"> Female
+</span><br><br>
+
+<fieldset>
+    <legend>Languages Known:</legend>
+    <label><input type="checkbox" name="English"> English</label><br><br>
+    <label><input type="checkbox" name="Malayalam"> Malayalam</label><br><br>
+    <label><input type="checkbox" name="Hindi"> Hindi</label><br><br>
+</fieldset>
+
+<!-- Buttons without div -->
+<span class="button-center">
+    <input type="submit" value="Submit">
+    <input type="button" value="Cancel">
+</span>
+
+</form>
+
+</body>
+</html>
